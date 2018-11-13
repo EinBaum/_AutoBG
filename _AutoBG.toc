@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: _Auto|cff60ff00BG|r
+## Notes: Chat command: /abg
+## Author: EinBaum https://github.com/EinBaum
+## Version: 1.0.0
+## SavedVariables: _autobg_settings
+## OptionalDeps: 
+
+_AutoBG.lua

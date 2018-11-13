@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir _AutoBG
+cp README.md _AutoBG.toc _AutoBG.lua LICENSE _AutoBG
+zip -r _AutoBG.zip _AutoBG
+rm -rf _AutoBG
