@@ -1,6 +1,6 @@
 
 local name = "_AutoBG"
-local version = "1.0.0"
+local version = "1.0.1"
 
 local settings = {
 	join = "Auto-join battlegrounds when they start",
@@ -69,7 +69,7 @@ local function queue_join()
 end
 
 local function rezz()
-	if GetBattlefieldStatus(1) == "active" then
+	if GetBattlefieldStatus(1) == "active" and not HasSoulstone() then
 		RepopMe()
 	end
 end
